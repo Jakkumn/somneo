@@ -1,27 +1,27 @@
 {
-    "domain": "somneo",
-    "name": "Philips Somneo",
-    "after_dependencies": [],
-    "codeowners": [
-        "@theneweinstein"
-    ],
-    "config_flow": true,
-    "dependencies": [],
-    "documentation": "https://github.com/theneweinstein/somneo",
-    "integration_type": "device",
-    "iot_class": "local_polling",
-    "issue_tracker": "https://github.com/theneweinstein/somneo/issues",
-    "loggers": [
-        "somneo"
-    ],
-    "requirements": [
-        "pysomneo==6.0.0"
-    ],
-    "ssdp": [
-        {
-            "nt": "urn:philips-com:device:DiProduct:1",
-            "modelName": "Wake-up Light"
-        }
-    ],
-    "version": "2026.10.0"
+  "domain": "somneo",
+  "name": "Philips Somneo",
+  "after_dependencies": [],
+  "codeowners": [
+    "@theneweinstein"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/theneweinstein/somneo",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/theneweinstein/somneo/issues",
+  "loggers": [
+    "somneo"
+  ],
+  "requirements": [
+    "pysomneo @ git+https://github.com/Jakkumn/pysomneo@1ad4bc176c07022f428494252fc95a3dcf687e4e"
+  ],
+  "ssdp": [
+    {
+      "nt": "urn:philips-com:device:DiProduct:1",
+      "modelName": "Wake-up Light"
+    }
+  ],
+  "version": "2026.10.0+sndch-test"
 }
