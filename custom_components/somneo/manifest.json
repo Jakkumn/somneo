@@ -15,7 +15,7 @@
     "somneo"
   ],
   "requirements": [
-    "pysomneo @ git+https://github.com/Jakkumn/pysomneo@1ad4bc176c07022f428494252fc95a3dcf687e4e"
+    "pysomneo @ git+https://github.com/Jakkumn/pysomneo@b20156a1d153180769edb054d944694ab17e42de"
   ],
   "ssdp": [
     {
@@ -23,5 +23,5 @@
       "modelName": "Wake-up Light"
     }
   ],
-  "version": "2026.10.0+sndch-test"
+  "version": "2026.10.0+dusk-test"
 }
